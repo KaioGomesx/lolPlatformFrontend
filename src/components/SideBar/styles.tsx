@@ -6,14 +6,22 @@ export const Sidebar = styled.div`
   background: transparent;
   padding: 30px 0px;
   position: fixed;
+<<<<<<< HEAD
 
   @media screen and (max-width: 700px) {
     width: 0px;
+=======
+  @media screen and (max-width: 700px) {
+    width: 100%;
+>>>>>>> 8c76cff5faa4b7c234676c34f561715826d91217
     height: auto;
     position: relative;
     a {float: left;}
     div.content {margin-left: 0;}
+<<<<<<< HEAD
     display: none;
+=======
+>>>>>>> 8c76cff5faa4b7c234676c34f561715826d91217
   }
 
   h2{
@@ -46,6 +54,7 @@ export const Sidebar = styled.div`
   ul li:hover a{
     color: #fff;
   }
+<<<<<<< HEAD
 `;
 
 export const MainDivision = styled.div`
@@ -61,4 +70,6 @@ export const MainDivision = styled.div`
       display: flex;
     }
   }
+=======
+>>>>>>> 8c76cff5faa4b7c234676c34f561715826d91217
 `;
