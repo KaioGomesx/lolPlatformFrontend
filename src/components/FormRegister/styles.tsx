@@ -5,8 +5,8 @@ export const Form = styled.form`
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  width: 30%;
-  min-height: 70vh;
+  width: 40%;
+  min-height: 90vh;
   margin: auto;
   box-shadow: 0px 2px 12px -5px rgba(13, 28, 39, 0.6);
   background: transparent;

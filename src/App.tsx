@@ -6,6 +6,7 @@ import "./style.css";
 import Register from "./view/Register/index";
 import Login from "./view/Login/index";
 import Dashboard from "./view/Dashboard/index";
+import Events from "./view/Events/index";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route exact path="/login" component={Login} />
           <Route exact path="/register" component={Register} />
           <Route exact path="/dashboard" component={Dashboard} />
+          <Route exact path="/events" component={Events} />
           <Redirect from="*" to="/login" />
         </Switch>
       </BrowserRouter>
