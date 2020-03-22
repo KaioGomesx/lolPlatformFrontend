@@ -4,24 +4,15 @@ export const Sidebar = styled.div`
   width: 200px;
   height: 100%;
   background: transparent;
-  padding: 30px 0px;
-  position: fixed;
-<<<<<<< HEAD
-
-  @media screen and (max-width: 700px) {
-    width: 0px;
-=======
+  padding: 5px 0px;
+  position: flex;
   @media screen and (max-width: 700px) {
     width: 100%;
->>>>>>> 8c76cff5faa4b7c234676c34f561715826d91217
     height: auto;
     position: relative;
     a {float: left;}
     div.content {margin-left: 0;}
-<<<<<<< HEAD
     display: none;
-=======
->>>>>>> 8c76cff5faa4b7c234676c34f561715826d91217
   }
 
   h2{
@@ -54,11 +45,9 @@ export const Sidebar = styled.div`
   ul li:hover a{
     color: #fff;
   }
-<<<<<<< HEAD
 `;
-
 export const MainDivision = styled.div`
-  i{
+  .iButton{
     display: none;
 
     @media screen and (max-width: 700px) {
@@ -70,6 +59,4 @@ export const MainDivision = styled.div`
       display: flex;
     }
   }
-=======
->>>>>>> 8c76cff5faa4b7c234676c34f561715826d91217
 `;

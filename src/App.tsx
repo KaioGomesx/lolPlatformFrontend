@@ -17,7 +17,7 @@ function App() {
           <Route exact path="/register" component={Register} />
           <Route exact path="/dashboard" component={Dashboard} />
           <Route exact path="/events" component={Events} />
-          <Redirect from="*" to="/login" />
+          <Redirect from="*" to="/dashboard" />
         </Switch>
       </BrowserRouter>
     </div>

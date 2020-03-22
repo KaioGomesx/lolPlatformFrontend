@@ -1,10 +1,6 @@
 import React from "react";
 
-import { ProfileMain } from "./styles";
-import { ProfilePicture } from "./styles";
-import { ProfilePui } from "./styles";
-import { ProfileMpinf } from "./styles";
-import { ProfileCtr } from "./styles";
+import { ProfileMain, ProfilePicture, ProfilePui, ProfileMpinf, ProfileCtr } from "./styles";
 
 export default function ProfileCard(){
     return(
