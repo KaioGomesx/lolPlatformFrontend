@@ -14,7 +14,6 @@ export default function SideBar() {
         <ul>
             <li><a href="./dashboard"><i className="fas fa-user"></i>Perfil</a></li>
             <li><a href="./events"><i className="fas fa-calendar-check"></i>Eventos</a></li>
-            <li><a href="./dashboard"><i className="fas fa-calendar-check"></i>Eventos</a></li>
             <li><a href="./dashboard"><i className="fas fa-play"></i>Aulas</a></li>
             <li><a href="./dashboard"><i className="fas fa-users"></i>Times</a></li>
             <li><a href="./dashboard"><i className="fas fa-headset"></i>For Streamers</a></li>
