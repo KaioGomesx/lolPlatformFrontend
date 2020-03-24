@@ -32,7 +32,7 @@ export default function FormRegister() {
   }
 
   return (
-    <Form>
+    <Form method="post">
       <h1>Registre-se</h1>
       <input
         value={username}
