@@ -4,7 +4,7 @@ import { Form } from "./styles";
 
 export default function FormRegister() {
   return (
-    <Form>
+    <Form method="post">
       <h1>Registre-se</h1>
       <input type="text" id="userReg" name="usuario" placeholder="Usuário"/>
       <input type="email" id="emailReg" name="email" placeholder="E-mail"/>
