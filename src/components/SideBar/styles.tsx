@@ -47,7 +47,7 @@ export const Sidebar = styled.div`
   }
 `;
 export const MainDivision = styled.div`
-  .iButton{
+  .oButton{
     display: none;
 
     @media screen and (max-width: 700px) {
@@ -57,6 +57,19 @@ export const MainDivision = styled.div`
       a {float: left;}
       div.content {margin-left: 0;}
       display: flex;
+    }
+  }
+
+  .cButton{
+    display: none;
+
+    @media screen and (max-width: 700px) {
+      width: 100%;
+      height: auto;
+      position: relative;
+      a {float: left;}
+      div.content {margin-left: 0;}
+      display: none;
     }
   }
 `;

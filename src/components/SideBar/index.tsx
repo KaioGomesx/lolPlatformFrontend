@@ -2,13 +2,28 @@ import React from "react";
 import { Sidebar, MainDivision } from "./styles";
 
 function openMenumb(){
-  document.getElementById('menuMB')!.style.display = "block";
+  function openMenu(){
+    document.getElementById('menuMB')!.style.display = "block";
+    document.getElementById('openBtn')!.style.display = "none";
+    document.getElementById('closeBtn')!.style.display = "flex";
+  }
+  openMenu();
+}
+
+function closeMenumb(){
+  function closeMenu(){
+    document.getElementById('menuMB')!.style.display = "none";
+    document.getElementById('openBtn')!.style.display = "flex";
+    document.getElementById('closeBtn')!.style.display = "none";
+  }
+  closeMenu();
 }
 
 export default function SideBar() {
   return(
   <MainDivision>
-    <i className="iButton fas fa-stream" onClick={openMenumb}></i>
+    <i id="openBtn" className="oButton fas fa-stream" onClick={openMenumb}></i>
+    <i id="closeBtn" className="cButton fas fa-stream" onClick={closeMenumb}></i>
     <Sidebar id="menuMB">
         <h2>Lol Project</h2>
         <ul>
