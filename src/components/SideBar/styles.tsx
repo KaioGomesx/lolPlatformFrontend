@@ -6,6 +6,7 @@ export const Sidebar = styled.div`
   background: transparent;
   padding: 5px 0px;
   position: flex;
+  display; block;
   @media screen and (max-width: 700px) {
     width: 100%;
     height: auto;

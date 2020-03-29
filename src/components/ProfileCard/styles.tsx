@@ -9,13 +9,12 @@ export const ProfileMain = styled.div`
     min-height: 460px;
     margin: auto;
     box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 0.6);
-    background: #fff;
+    background: transparent;
     border-radius: 12px;
     max-width: 700px;
     position: relative;
 
     button{
-      background: none;
       border: none;
       font-family: "Quicksand", sans-serif;
       font-weight: 700;
@@ -25,12 +24,9 @@ export const ProfileMain = styled.div`
       min-width: 201px;
       border-radius: 50px;
       min-height: 55px;
-      color: #fff;
-      background: linear-gradient(45deg, #1c5252, #16d9f7);
-      box-shadow: 0px 4px 30px rgba(9, 118, 133, 0.75);s
-      cursor: pointer;
-      backface-visibility: hidden;
-      transition: all 0.3s;
+      color: #ffffff;
+      background: transparent;
+      box-shadow: 0px 4px 30px rgba(9, 118, 133, 0.75);
     }
 `;
 export const ProfilePicture = styled.div`
@@ -65,14 +61,14 @@ export const ProfilePui = styled.div`
   .NameU{
     font-weight: 700;
     font-size: 24px;
-    color: #001d29;
+    color: #ffffff;
     margin-bottom: 15px;
   }
 
   .GameU{
     font-size: 18px;
     font-weight: 500;
-    color: #324e63;
+    color: #ffffff;
     margin-bottom: 15px;
   }
 
@@ -86,6 +82,7 @@ export const ProfilePui = styled.div`
     align-items: center;
     font-size: 18px;
     font-weight: 600;
+    color: #ffffff;
   }
 `;
 
@@ -108,7 +105,7 @@ export const ProfileMpinf = styled.div`
     align-items: center;
     font-weight: 700;
     font-size: 27px;
-    color: #324e63;s
+    color: #ffffff;
   }
 
   .info1{
@@ -117,6 +114,7 @@ export const ProfileMpinf = styled.div`
     align-items: center;
     font-weight: 500;
     margin-top: 7px;
+    color: #ffffff;
   }
 `;
 

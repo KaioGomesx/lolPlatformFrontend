@@ -2,21 +2,23 @@ import React from "react";
 import { Sidebar, MainDivision } from "./styles";
 
 function openMenumb(){
-  function openMenu(){
-    document.getElementById('menuMB')!.style.display = "block";
-    document.getElementById('openBtn')!.style.display = "none";
-    document.getElementById('closeBtn')!.style.display = "flex";
-  }
-  openMenu();
+  const sideBar = document.getElementById('menuMB');
+  const openButton = document.getElementById('openBtn');
+  const closeButton = document.getElementById('closeBtn');
+
+  sideBar!.style.display = "block";
+  openButton!.style.display = "none";
+  closeButton!.style.display = "block";
 }
 
 function closeMenumb(){
-  function closeMenu(){
-    document.getElementById('menuMB')!.style.display = "none";
-    document.getElementById('openBtn')!.style.display = "flex";
-    document.getElementById('closeBtn')!.style.display = "none";
-  }
-  closeMenu();
+  const sideBar = document.getElementById('menuMB');
+  const openButton = document.getElementById('openBtn');
+  const closeButton = document.getElementById('closeBtn');
+
+  sideBar!.style.display = "none";
+  openButton!.style.display = "block";
+  closeButton!.style.display = "none";
 }
 
 export default function SideBar() {
